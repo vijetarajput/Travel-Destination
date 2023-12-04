@@ -1,7 +1,75 @@
-h1 {
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+body {
   font-family: "Poppins", sans-serif;
-  font-style: normal;
+  background-color: black;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/Varanasi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 280px;
+}
+footer {
+  text-align: center;
+  color: white;
+}
+footer a {
+  color: white;
+}
+header h1 {
   font-weight: 700;
   font-size: 96px;
-  line-height: 144px;
+  line-height: 1.5;
+}
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+}
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+}
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: white;
+  text-decoration: none;
+  color: #272044;
+  padding: 16px 32px;
+  display: inline-block;
+  margin-top: 32px;
+}
+@media (max-width: 900px) {
+  header {
+    padding: 300px 5px;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20 px;
+  }
+  header h3 {
+    font-size: 15px;
+  }
+  header a {
+    padding: 7px;
+  }
 }
