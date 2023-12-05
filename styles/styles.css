@@ -4,6 +4,7 @@ h3,
 h4,
 h5 {
   margin: 0;
+  text-align: center;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -120,6 +121,11 @@ section.cafe {
   text-transform: uppercase;
   padding: 16px;
   text-decoration: none;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 20px;
 }
 main {
   background-color: white;
@@ -254,6 +260,10 @@ a {
     height: 100%;
     width: 100%;
     display: inline;
+  }
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
   }
   footer .grid {
     display: grid;
